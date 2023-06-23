@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "mifuente1";
+    src: url(Comfortaa-Regular.ttf)
+}
+
+@font-face {
+    font-family: "mifuente2";
+    src: url(Banda\ Niera-Medium.otf);
+}
+
+#botonAgregar {
+    font-size: 100%;
+    background-color: rgb(255, 216, 168);
+    font-family: "mifuente1";
+    margin-left: 5%;
+    margin-block-end: 5%;
+    border-radius: 5%;
+}
+
+#titulo {
+    font-family: "mifuente1";
+    text-align: center;
+    font-size: 250%;
+    margin-top: 1%;
+    color: rgb(93, 111, 0);
+}
+
+#titulo-nombre {
+    font-family: "mifuente1";
+    text-align: center;
+    font-size: 200%;
+    margin-block-end: 1%;
+    color: rgb(93, 111, 0);
+}
+
+#ingresar-tarea {
+    font-family: "mifuente1";
+    margin-top: 10%;
+    margin-block-end: 5%;
+    font-size: 100%;
+    width: 90%;
+    margin-left: 2%;
+}
+
+.container {
+    margin-block-end: 15px;
+    margin-left: 30px;
+    margin-top: 2%;
+}
+
+
+.main-div {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-right: 4%;
+    margin-left: 4%;
+    background-color: #F0DEC5;
+    box-shadow: 35px 35px 70px #646550,
+        -35px -35px 70px #ffffe2;
+    border-radius: 10px;
+}
+
+.caja-principal {
+    border: 2px solid black;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    min-height: 90vh;
+    border-radius: 1%;
+    background-color: #F0DEC5;
+    box-shadow: 35px 35px 70px #646550,
+        -35px -35px 70px #ffffe2;
+
+}
+
+.circulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 60%;
+    border: 2px solid black;
+    border-radius: 30%;
+    margin-left: 34%;
+}
+
+.center-div {
+    display: flex;
+    justify-content: left;
+    min-height: 50%;
+    border: black solid 2px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: #F0DEC5;
+    box-shadow: 35px 35px 70px #646550,
+        -35px -35px 70px #ffffe2;
+}
+
+#textoSinTareas {
+    font-family: "mifuente2";
+    font-size: 20px;
+
+}
+
+.inputcheck {
+    margin-left: 25px;
+}
+
+#tareas-completadas {
+    margin-right: 20%;
+    text-align: center;
+    font-size: 100%;
+    font-family: "mifuente1";
+    margin-top: 10%;
+    color: rgb(31, 36, 11);
+
+}
+
+#ulContainer {
+    word-wrap: break-word;
+}
+
+
+.listaLi {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.listaLi input {
+    width: 30px;
+}
+
+.listaLi label {
+    width: 85%;
+    word-wrap: break-word;
+}
+
+
+.oculto {
+    visibility: hidden;
+}
